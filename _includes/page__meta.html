@@ -31,7 +31,7 @@ document.show_date %}
           {% else %}
             {{ words | divided_by: words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
           {% endif %} -->
-    {{post.date | date: "%B %d %Y"}}
+    {{ document.date | date: "%B %d %Y" }}
   </span>
   {% endif %}
 </p>
