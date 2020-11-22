@@ -1,5 +1,5 @@
 ---
-title: "var, let, const 키워드"
+title: "Ruby, Jekyll 설치"
 date: 2020-11-22 20:42:43 +0900
 categories:
   - etc
