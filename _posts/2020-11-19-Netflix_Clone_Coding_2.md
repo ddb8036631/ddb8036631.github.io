@@ -1,8 +1,8 @@
 ---
-title: "Netflix Clone Coding(2/4)"
+title: "[etc] Netflix Clone Coding(2/4)"
 date: 2020-11-19 00:38:40 +0900
 categories:
-  - Clone Coding
+  - etc
 toc: true
 toc_sticky: true
 ---

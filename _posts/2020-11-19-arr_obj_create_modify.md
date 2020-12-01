@@ -1,5 +1,5 @@
 ---
-title: "객체와 배열 생성, 수정"
+title: "[Javascript] 객체와 배열 생성, 수정"
 date: 2020-11-19 23:57:43 +0900
 categories:
   - Javascript

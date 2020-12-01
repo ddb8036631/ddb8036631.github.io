@@ -1,5 +1,5 @@
 ---
-title: "비구조화"
+title: "[Javascript] 비구조화"
 date: 2020-11-19 23:57:43 +0900
 categories:
   - Javascript
