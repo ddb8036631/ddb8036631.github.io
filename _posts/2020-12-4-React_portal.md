@@ -1,0 +1,22 @@
+---
+title: "[React] Portal"
+date: 2020-12-4 14:51:00 +0900
+categories:
+  - React
+toc: true
+toc_sticky: true
+---
+
+root 엘리먼트 말고, 다른 멀리 떨어진 엘리먼트에 렌더링하고 싶을 때 사용합니다.
+
+```jsx
+ReactDOM.createPortal(child, container)
+```
+
+첫 번째 인자(child)는 엘리먼트, 문자열, 혹은 fragment와 같은 어떤 종류이든 렌더링할 수 있는 React 자식을 의미합니다. 두 번째 인자(container)는 DOM 엘리먼트입니다.
+
+아래 예제와 같이 root 엘리먼트의 자식으로 렌더링되는 App 컴포넌트 내부에 `createPortal` 메소드를 이용하여 자식 엘리먼트를 작성해두면, root 아이디의 div가 아닌 somewhere 라는 아이디를 가진 div를 찾아 해당 자식 노드로 렌더링합니다.
+
+![/assets/images/React_portal1.png](/assets/images/React_portal1.png)
+
+![/assets/images/React_portal2.png](/assets/images/React_portal2.png)
