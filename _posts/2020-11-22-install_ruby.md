@@ -4,7 +4,8 @@ date: 2020-11-22 20:42:43 +0900
 categories:
   - etc
 toc: true
-toc_sticky: true
+classes: wide
+use_math: true
 ---
 
 맥에는 2.6.3 버전의 시스템 ruby가 설치되어 있습니다.

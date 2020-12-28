@@ -4,7 +4,8 @@ date: 2020-11-19 00:38:40 +0900
 categories:
   - etc
 toc: true
-toc_sticky: true
+classes: wide
+use_math: true
 ---
 
 # 들어가기에 앞서..

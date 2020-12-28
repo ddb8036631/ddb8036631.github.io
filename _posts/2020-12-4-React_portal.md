@@ -4,7 +4,8 @@ date: 2020-12-4 14:51:00 +0900
 categories:
   - React
 toc: true
-toc_sticky: true
+classes: wide
+use_math: true
 ---
 
 root 엘리먼트 말고, 다른 멀리 떨어진 엘리먼트에 렌더링하고 싶을 때 사용합니다.

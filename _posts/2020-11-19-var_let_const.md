@@ -4,7 +4,8 @@ date: 2020-11-19 23:57:43 +0900
 categories:
   - Javascript
 toc: true
-toc_sticky: true
+classes: wide
+use_math: true
 ---
 
 Javascript 에서는 변수와 함수를 var, let, const 라는 키워드를 통해 선언 및 할당할 수 있습니다. 각각의 키워드들이 무슨 차이점이 있는지 알아보겠습니다.

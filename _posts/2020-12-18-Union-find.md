@@ -4,7 +4,8 @@ date: 2020-12-18 16:46:00 +0900
 categories:
   - 알고리즘
 toc: true
-toc_sticky: true
+classes: wide
+use_math: true
 ---
 
 # Union-Find란?

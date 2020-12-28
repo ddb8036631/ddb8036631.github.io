@@ -4,7 +4,8 @@ date: 2020-12-5 14:19:00 +0900
 categories:
   - React
 toc: true
-toc_sticky: true
+classes: wide
+use_math: true
 ---
 
 # React.createElement 메소드
