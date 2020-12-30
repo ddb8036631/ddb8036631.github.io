@@ -95,7 +95,7 @@ author:
   name: "김무성"
   avatar: "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "**Frontend** 공부중인 취준생입니다."
-  location: "서울"
+  # location: "서울"
   email:
   links:
     - label: "Email"
@@ -201,7 +201,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
