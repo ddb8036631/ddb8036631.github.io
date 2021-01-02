@@ -10,7 +10,7 @@ use_math: true
 
 # 문제 링크
 
-> [10021. Watering the Fields](https://www.acmicpc.net/problem/10021)
+> [백준 - 10021. Watering the Fields](https://www.acmicpc.net/problem/10021)
 
 # 풀이 과정
 
