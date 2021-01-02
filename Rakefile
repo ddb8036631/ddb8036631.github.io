@@ -74,3 +74,6 @@ task :preview do
 
   Jekyll::Commands::Serve.process(options)
 end
+
+# Run Algolia 
+sh "bundle exec jekyll algolia"

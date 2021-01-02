@@ -6,4 +6,4 @@ layout: single
 
 ## ddb8036631.github.io 블로그
 
-이 블로그는 GitHub Pages 블로그 서비스인 github.io를 같이 만들어보는 샘플 블로그이다.
+Froneend 개발자를 준비하는 취준생 블로그입니다. 알고리즘 문제 풀이와 프로그래밍 공부한 내용을 작성합니다.
