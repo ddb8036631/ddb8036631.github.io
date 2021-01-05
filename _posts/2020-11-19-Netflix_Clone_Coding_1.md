@@ -5,7 +5,6 @@ categories:
   - etc
 toc: true
 classes: wide
-use_math: true
 ---
 
 # 들어가기에 앞서..

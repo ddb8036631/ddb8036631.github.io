@@ -5,7 +5,6 @@ categories:
   - React
 toc: true
 classes: wide
-use_math: true
 ---
 
 # React.createElement 메소드

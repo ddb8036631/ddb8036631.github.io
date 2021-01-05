@@ -5,7 +5,6 @@ categories:
   - etc
 toc: true
 classes: wide
-use_math: true
 ---
 
 # 모든 영화 가져오기

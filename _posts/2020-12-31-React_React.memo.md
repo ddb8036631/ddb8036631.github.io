@@ -5,7 +5,6 @@ categories:
   - React
 # toc: true
 classes: wide
-use_math: true
 ---
 
 React.memo 함수는 해당 컴포넌트의 props가 변경될 때에만 새로 렌더링 되도록 할 때 사용하는 함수입니다.

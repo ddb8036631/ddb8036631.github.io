@@ -5,7 +5,6 @@ categories:
   - 알고리즘
 toc: true
 classes: wide
-use_math: true
 ---
 
 # Union-Find란?

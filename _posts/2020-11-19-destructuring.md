@@ -5,7 +5,6 @@ categories:
   - Javascript
 toc: true
 classes: wide
-use_math: true
 ---
 
 # 비구조화

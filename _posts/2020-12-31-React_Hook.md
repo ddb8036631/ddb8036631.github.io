@@ -5,7 +5,6 @@ categories:
   - React
 toc: true
 classes: wide
-use_math: true
 ---
 
 리액트 훅은 컴포넌트에 기능을 추가할 때 사용하는 함수입니다. 예를 들면, 컴포넌트에 상태 값을 추가하거나 자식 요소에 접근하는 등의 기능을 추가하고 싶을 때 훅을 사용할 수 있습니다.
