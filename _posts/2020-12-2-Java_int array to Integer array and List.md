@@ -1,5 +1,5 @@
 ---
-title: "[Java] int[] to Integer[]"
+title: "[Java] int array to Integer array and List"
 date: 2020-12-2 15:35:00 +0900
 categories:
   - Java
@@ -14,8 +14,11 @@ classes: wide
 아래는 [Stack Overflow - How to convert int[] to Integer[] in Java?](https://stackoverflow.com/questions/880581/how-to-convert-int-to-integer-in-java) 에서 찾은 함수를 이용한 변경 코드입니다.
 
 ```java
-int[] numbers = {3, 30, 34, 5, 9};
+int[] array = {3, 30, 34, 5, 9};
 
-Integer[] convertedArr1 = Arrays.stream(numbers).boxed().toArray(Integer[]::new);
-Integer[] convertedArr2 = IntStream.of(numbers).boxed().toArray(Integer[]::new);
+Integer[] convertedArray = Arrays.stream(array).boxed().toArray(Integer[]::new);
+List<Integer> convertedList = Arrays.stream(array).boxed().collect(Collectors.toList());
+
+System.out.println("convertedArray : " + Arrays.toString(convertedArray)); // [3, 30, 34, 5, 9]
+System.out.println("convertedList : " + convertedList); // [3, 30, 34, 5, 9]
 ```
