@@ -1,5 +1,5 @@
 ---
-title: "[Javascript] 비구조화(Destructuring)"
+title: "[Javascript] 구조 분해 할당(destructuring assignment)"
 date: 2020-11-19 23:57:43 +0900
 categories:
   - Javascript
