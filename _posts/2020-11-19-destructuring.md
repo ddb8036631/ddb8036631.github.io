@@ -1,5 +1,5 @@
 ---
-title: "[Javascript] 비구조화"
+title: "[Javascript] 비구조화(Destructuring)"
 date: 2020-11-19 23:57:43 +0900
 categories:
   - Javascript
@@ -140,3 +140,28 @@ console.log(mother); // 참조 에러
 ```
 
 위의 코드의 비구조화의 결과로 motherName 이라는 이름의 변수만 생성됩니다.
+
+<br>
+
+## 깊은 복사를 원하면
+
+```jsx
+const arr = [1, 2, 3, 4, 5, { num: 6 }];
+const copiedArr = [...arr];
+
+console.log("arr : ", arr);
+console.log("copiedArr : ", copiedArr);
+
+copiedArr[5].num = 100;
+
+console.log("--------------------------------------------");
+console.log("arr : ", arr);
+console.log("copiedArr : ", copiedArr);
+
+copiedArr[5] = { ...copiedArr[5] };
+copiedArr[5].num = 999;
+
+console.log("--------------------------------------------");
+console.log("arr : ", arr);
+console.log("copiedArr : ", copiedArr);
+```
