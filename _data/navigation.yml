@@ -4,6 +4,8 @@ main:
   #   url: /categories/til/
   - title: "Category"
     url: /categories/
+  - title: "Monthly"
+    url: /month-archive/
   # - title: "About"
   #   url: /about/
   # - title: "Sample Posts"
