@@ -2,7 +2,7 @@
 title: "[알고리즘 풀이] 백준 - 15591. MooTube (Silver)"
 date: 2021-1-1 15:54:00 +0900
 categories:
-  - 알고리즘 풀이
+  - boj
 toc: true
 classes: wide
 ---

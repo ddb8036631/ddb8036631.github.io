@@ -265,11 +265,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      # read_time: true
+      read_time: true
       comments: true
       share: true
       related: true
       show_date: true
+      sidebar_main: true
 
   #>>>>>>>>>>>>>>>>>>> 여기서부터 추가 됨
   # _pages 부분입니다.

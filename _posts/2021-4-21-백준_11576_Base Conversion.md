@@ -2,7 +2,7 @@
 title: "[알고리즘 풀이] 백준 - 11576. Base Conversion"
 date: 2021-4-21 13:00:00 +0900
 categories:
-  - 알고리즘 풀이
+  - boj
 toc: true
 classes: wide
 ---

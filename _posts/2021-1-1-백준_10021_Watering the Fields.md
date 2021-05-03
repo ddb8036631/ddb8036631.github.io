@@ -2,7 +2,7 @@
 title: "[알고리즘 풀이] 백준 - 10021. Watering the Fields"
 date: 2021-1-1 18:00:00 +0900
 categories:
-  - 알고리즘 풀이
+  - boj
 toc: true
 classes: wide
 ---

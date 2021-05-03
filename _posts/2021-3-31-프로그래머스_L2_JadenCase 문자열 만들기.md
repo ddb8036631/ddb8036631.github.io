@@ -2,7 +2,7 @@
 title: "[알고리즘 풀이] 프로그래머스 - Level2. JadenCase 문자열 만들기"
 date: 2021-3-31 15:42:00 +0900
 categories:
-  - 알고리즘 풀이
+  - programmers
 toc: true
 classes: wide
 ---
