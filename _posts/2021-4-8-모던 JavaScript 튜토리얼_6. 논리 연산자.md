@@ -33,7 +33,7 @@ console.log(1 && 0 && 2);    // 0
 console.log(1 && "0" && -1); // -1
 ```
 
-**참고**  
+**참고:**  
 `alert( alert(1) && alert(2) );` 의 결과는?  
 얼럿 창엔 **1**과 **undefined** 가 차례로 출력된다. alert 함수는 undefined 를 리턴하고, undefined는 **falsy** 한 값이기에 alert(2) 는 호출조차 되지 않는다.
 {: .notice--warning}
