@@ -2,7 +2,7 @@
 title: "[React] Hook"
 date: 2020-12-31 15:47:00 +0900
 categories:
-  - React
+  - react
 toc: true
 classes: wide
 ---

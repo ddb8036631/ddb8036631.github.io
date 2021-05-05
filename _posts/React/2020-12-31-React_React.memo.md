@@ -2,7 +2,7 @@
 title: "[React] React.memo"
 date: 2020-12-31 14:41:00 +0900
 categories:
-  - React
+  - react
 # toc: true
 classes: wide
 ---

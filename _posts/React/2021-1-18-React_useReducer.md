@@ -2,7 +2,7 @@
 title: "[React] useReducer"
 date: 2021-1-18 22:50:00 +0900
 categories:
-  - React
+  - react
 toc: true
 classes: wide
 ---

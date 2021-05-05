@@ -2,7 +2,7 @@
 title: "[Java] Pattern, Matcher로 정규식 매칭 문자열 자르기"
 date: 2021-1-26 21:59:00 +0900
 categories:
-  - Java
+  - java
 # toc: true
 classes: wide
 ---

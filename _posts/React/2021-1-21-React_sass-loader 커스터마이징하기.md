@@ -2,7 +2,7 @@
 title: "[React] sass-loader 설정 커스터마이징하기"
 date: 2021-1-21 20:39:00 +0900
 categories:
-  - React
+  - react
 toc: true
 classes: wide
 ---

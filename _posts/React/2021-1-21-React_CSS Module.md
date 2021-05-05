@@ -2,7 +2,7 @@
 title: "[React] CSS Module"
 date: 2021-1-21 22:17:00 +0900
 categories:
-  - React
+  - react
 toc: true
 classes: wide
 ---

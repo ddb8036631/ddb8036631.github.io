@@ -2,7 +2,7 @@
 title: "[React] styled-components"
 date: 2021-1-21 22:39:00 +0900
 categories:
-  - React
+  - react
 toc: true
 classes: wide
 ---

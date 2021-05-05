@@ -2,7 +2,7 @@
 title: "[React] Portal"
 date: 2020-12-4 14:51:00 +0900
 categories:
-  - React
+  - react
 toc: true
 classes: wide
 ---

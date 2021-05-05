@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Category"
-    url: /categories/
+  # - title: "Category"
+  #   url: /categories/
   # - title: "TIL"
   #   url: /categories/til/
   # - title: "Monthly"

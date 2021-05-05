@@ -2,7 +2,7 @@
 title: "[Java] int array to Integer array and List"
 date: 2020-12-2 15:35:00 +0900
 categories:
-  - Java
+  - java
 toc: true
 classes: wide
 ---

@@ -1,5 +1,5 @@
 ---
-title: "[알고리즘] Union-Find"
+title: "[알고리즘 정리] Union-Find"
 date: 2020-12-18 16:46:00 +0900
 categories:
   - algorithm

@@ -2,7 +2,7 @@
 title: "[React] Element"
 date: 2020-12-5 14:19:00 +0900
 categories:
-  - React
+  - react
 toc: true
 classes: wide
 ---

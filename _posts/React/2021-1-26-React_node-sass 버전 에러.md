@@ -2,7 +2,7 @@
 title: "[React] node-sass 버전 에러"
 date: 2021-1-26 01:38:00 +0900
 categories:
-  - React
+  - react
 # toc: true
 classes: wide
 ---

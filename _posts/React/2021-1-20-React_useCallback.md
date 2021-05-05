@@ -2,7 +2,7 @@
 title: "[React] useCallback"
 date: 2021-1-20 12:30:00 +0900
 categories:
-  - React
+  - react
 toc: true
 classes: wide
 ---
