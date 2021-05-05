@@ -2,7 +2,7 @@
 title: "[알고리즘] Union-Find"
 date: 2020-12-18 16:46:00 +0900
 categories:
-  - 알고리즘
+  - algorithm
 toc: true
 classes: wide
 ---
