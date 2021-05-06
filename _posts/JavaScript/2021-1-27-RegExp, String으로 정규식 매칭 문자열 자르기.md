@@ -9,7 +9,7 @@ classes: wide
 
 # Java로...
 
-이전 [[Pattern, Matcher로 정규식 매칭 문자열 자르기]](http://ddb8036631.github.io/java/Pattern,-Matcher로-정규식-매칭-문자열-자르기) 포스팅에서 Java로 패턴 매칭을 진행해봤다. Javascript도 정규식을 이용해 문자열 패턴 매칭을 진행할 수 있다.
+이전 [[Java] Pattern, Matcher로 정규식 매칭 문자열 자르기](http://ddb8036631.github.io/java/Pattern,-Matcher로-정규식-매칭-문자열-자르기) 포스팅에서 Java로 패턴 매칭을 진행해봤다. Javascript도 정규식을 이용해 문자열 패턴 매칭을 진행할 수 있다.
 
 <br>
 
@@ -53,7 +53,7 @@ let regex = new RegExp("ab+c", "i");
 
 # 패턴 매칭 예시
 
-[프로그래머스 - 카카오2018. 다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) 문제를 정규식 패턴으로 표현하면 다음과 같다.
+[[프로그래머스] 17682. 다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) 문제를 정규식 패턴으로 표현하면 다음과 같다.
 
 ```jsx
 // 리터럴 표기법

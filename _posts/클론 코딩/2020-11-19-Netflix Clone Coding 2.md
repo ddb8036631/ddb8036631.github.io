@@ -1,5 +1,5 @@
 ---
-title: "[etc] Netflix Clone Coding(2/4)"
+title: "[클론 코딩] Netflix Clone Coding(2/4)"
 date: 2020-11-19 00:38:40 +0900
 categories:
   - clonecoding

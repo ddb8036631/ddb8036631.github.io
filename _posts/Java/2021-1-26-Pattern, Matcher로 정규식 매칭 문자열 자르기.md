@@ -23,7 +23,7 @@ boolean result = matcher.matches();
 
 <br>
 
-매칭해 볼 문자열 내에 정규식 표현이 여러 번 등장할 수 있다. 예를 들어, [프로그래머스 - 카카오2018. 다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) 문제를 정규식 패턴으로 표현하면 다음과 같다.
+매칭해 볼 문자열 내에 정규식 표현이 여러 번 등장할 수 있다. 예를 들어, [[프로그래머스] 17682. 다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) 문제를 정규식 패턴으로 표현하면 다음과 같다.
 
 ```java
 String regex = "([0-9]*)([SDT])([*#]?)";

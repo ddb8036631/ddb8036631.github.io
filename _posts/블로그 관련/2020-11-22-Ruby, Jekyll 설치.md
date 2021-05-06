@@ -1,5 +1,5 @@
 ---
-title: "[etc] Ruby, Jekyll 설치"
+title: "[블로그 관련] Ruby, Jekyll 설치"
 date: 2020-11-22 20:42:43 +0900
 categories:
   - blog
