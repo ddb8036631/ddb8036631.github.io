@@ -1,5 +1,5 @@
 ---
-title: "[Javascript] map(), reduce()"
+title: "[JavaScript] map(), reduce()"
 date: 2021-1-18 22:33:00 +0900
 categories:
   - javascript

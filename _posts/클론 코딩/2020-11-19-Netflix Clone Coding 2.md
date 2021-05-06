@@ -52,7 +52,7 @@ export default instance;
 
 ## Row.js 파일 생성
 
-![](/assets/images/netflix.png)
+![http://dl.dropbox.com/s/puyu9rjlyknf92c/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%202-1.png](http://dl.dropbox.com/s/puyu9rjlyknf92c/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%202-1.png)
 
 위의 사진에서의 rows(한 줄 한 줄)은 각각 하나의 컴포넌트입니다.
 

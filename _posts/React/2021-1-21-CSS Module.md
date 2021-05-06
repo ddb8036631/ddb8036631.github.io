@@ -52,7 +52,7 @@ export default CSSModule;
 
 CSSModule이 적용된 스타일 파일을 불러오면 객체 하나를 전달받습니다. 여기선 styles라는 이름으로 받았습니다. 이 객체에는 파일에서 사용된 클래스 이름과 해당 이름을 고유화한 값이 키-값 형태로 들어 있습니다. styles 객체를 로그에 찍어보면 다음과 같이 나옵니다.
 
-![/assets/images/React_CSS Module1.png](/assets/images/React_CSS Module1.png)
+![http://dl.dropbox.com/s/9up7ploxvafpklb/React-CSS%20Module-1.png](http://dl.dropbox.com/s/9up7ploxvafpklb/React-CSS%20Module-1.png)
 
 작성된 각각의 클래스들에 `[파일 이름]_[클래스 이름]__[해시값]` 의 형태로 값이 주어지는 것을 확인할 수 있습니다. 고유 클래스 이름을 사용하려면 중괄호를 이용해 { styles.wrapper } 와 같이 작성해주고, 전역으로 선언된 클래스 이름은 문자열로 지정해줍니다.
 

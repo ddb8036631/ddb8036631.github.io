@@ -1,5 +1,5 @@
 ---
-title: "[Javascript] RegExp, String으로 정규식 매칭 문자열 자르기"
+title: "[JavaScript] RegExp, String으로 정규식 매칭 문자열 자르기"
 date: 2021-1-27 14:55:00 +0900
 categories:
   - javascript
@@ -9,7 +9,7 @@ classes: wide
 
 # Java로...
 
-이전 [[Pattern, Matcher로 정규식 매칭 문자열 자르기]](http://ddb8036631.github.io/java/Java_Pattern,-Matcher로-정규식-매칭-문자열-자르기) 포스팅에서 Java로 패턴 매칭을 진행해봤다. Javascript도 정규식을 이용해 문자열 패턴 매칭을 진행할 수 있다.
+이전 [[Pattern, Matcher로 정규식 매칭 문자열 자르기]](http://ddb8036631.github.io/java/Pattern,-Matcher로-정규식-매칭-문자열-자르기) 포스팅에서 Java로 패턴 매칭을 진행해봤다. Javascript도 정규식을 이용해 문자열 패턴 매칭을 진행할 수 있다.
 
 <br>
 
@@ -81,7 +81,7 @@ for (res of result) {
 }
 ```
 
-![/assets/images/JS_RegExp, String으로 정규식 매칭 문자열 자르기1.png](/assets/images/JS_RegExp, String으로 정규식 매칭 문자열 자르기1.png)
+![http://dl.dropbox.com/s/p8xslrbyj3f9uxm/JavaScript-RegExp%2C%20String%EC%9C%BC%EB%A1%9C%20%EC%A0%95%EA%B7%9C%EC%8B%9D%20%EB%A7%A4%EC%B9%AD%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%90%EB%A5%B4%EA%B8%B0-1.png](http://dl.dropbox.com/s/p8xslrbyj3f9uxm/JavaScript-RegExp%2C%20String%EC%9C%BC%EB%A1%9C%20%EC%A0%95%EA%B7%9C%EC%8B%9D%20%EB%A7%A4%EC%B9%AD%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%90%EB%A5%B4%EA%B8%B0-1.png)
 
 <br>
 

@@ -13,7 +13,7 @@ Union-Find는 서로소 집합(disjoint-set)을 표현하는 알고리즘입니�
 
 아래와 같이 정점과 간선이 주어져 세 개의 그래프를 이룬다고 가정합시다.
 
-![/assets/images/Union-Find1.png](/assets/images/Union-Find1.png)
+![http://dl.dropbox.com/s/nsukdgtrioj5e2j/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-1.png](http://dl.dropbox.com/s/nsukdgtrioj5e2j/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-1.png)
 
 - 첫 번째 그래프는 `정점 1, 2, 3`으로 그려집니다.
 - 두 번째 그래프는 `정점 4, 5`로 그려집니다.
@@ -47,35 +47,35 @@ Union-Find는 세 동작을 거칩니다.
 
 가장 먼저 초기화 작업을 거칩니다. 각각의 정점을 자기 자신의 집합에 포함시킵니다.
 
-![/assets/images/Union-Find2.png](/assets/images/Union-Find2.png)
+![http://dl.dropbox.com/s/gvgweberhyr0r7l/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-2.png](http://dl.dropbox.com/s/gvgweberhyr0r7l/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-2.png)
 
 ## 정점 1과 2를 Union
 
 먼저 정점 1과 2에 대해 Find 과정을 실행합니다. 정점 1의 부모 노드 번호는 1이고, 정점 2의 부모 노드 번호는 2인 것을 확인할 수 있습니다. 이후, Union 단계에서 더 적은 부모의 노드 번호로 통일합니다. 이 단계에서 정점 2의 부모 노드 번호가 1로 변경됩니다. 이후 단계에서도 같은 작업이 반복됩니다.
 
-![/assets/images/Union-Find3.png](/assets/images/Union-Find3.png)
+![http://dl.dropbox.com/s/2h6g8np8242pi40/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-3.png](http://dl.dropbox.com/s/2h6g8np8242pi40/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-3.png)
 
 ## 정점 2와 3을 Union
 
-![/assets/images/Union-Find4.png](/assets/images/Union-Find4.png)
+![http://dl.dropbox.com/s/vuz3e238nvxv8xq/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-4.png](http://dl.dropbox.com/s/vuz3e238nvxv8xq/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-4.png)
 
 ## 정점 4와 5를 Union
 
-![/assets/images/Union-Find5.png](/assets/images/Union-Find5.png)
+![http://dl.dropbox.com/s/e3mz8q2cmep8a1p/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-5.png](http://dl.dropbox.com/s/e3mz8q2cmep8a1p/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-5.png)
 
 ## 정점 6와 8를 Union
 
-![/assets/images/Union-Find6.png](/assets/images/Union-Find6.png)
+![http://dl.dropbox.com/s/k8srtcqwxyio6mq/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-6.png](http://dl.dropbox.com/s/k8srtcqwxyio6mq/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-6.png)
 
 ## 정점 7와 8를 Union
 
-![/assets/images/Union-Find7.png](/assets/images/Union-Find7.png)
+![http://dl.dropbox.com/s/gy6y52rbt396fsn/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-7.png](http://dl.dropbox.com/s/gy6y52rbt396fsn/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-7.png)
 
 ## Union이 끝난 후
 
 Union 작업이 모두 끝난 후 parent 배열을 통해 각각의 정점들이 그룹화 되었음을 확인할 수 있습니다.
 
-![/assets/images/Union-Find8.png](/assets/images/Union-Find8.png)
+![http://dl.dropbox.com/s/193p9fyswyblrsn/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-8.png](http://dl.dropbox.com/s/193p9fyswyblrsn/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-8.png)
 
 # 코드
 
@@ -108,7 +108,7 @@ static void union(int a, int b) {
 
 위에서 알아본 Union-Find 코드는 아래와 같은 완전 비대칭 트리와 같은 구조를 나타낸다면, 최악의 경우 O(N)의 시간 복잡도를 갖습니다.
 
-![/assets/images/Union-Find9.png](/assets/images/Union-Find9.png)
+![http://dl.dropbox.com/s/345mk6byxnhpd3h/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-9.png](http://dl.dropbox.com/s/345mk6byxnhpd3h/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%A0%95%EB%A6%AC-Union-Find-9.png)
 
 Union by rank는 항상 작은 트리를 큰 트리 루트에 붙이는 방법입니다. 트리의 깊이가 실행 시간에 영향을 주기 때문에, 깊이가 적은 트리를 깊이가 더 깊은 트리의 루트 아래에 추가합니다. 그러면, 두 트리의 깊이가 같을 경우에만 깊이가 증가하게 됩니다. 이 방법을 사용하면, 최악의 경우 O(logn)의 시간 복잡도를 갖습니다.
 

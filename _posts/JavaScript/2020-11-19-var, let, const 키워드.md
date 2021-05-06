@@ -1,5 +1,5 @@
 ---
-title: "[Javascript] var, let, const 키워드"
+title: "[JavaScript] var, let, const 키워드"
 date: 2020-11-19 23:57:43 +0900
 categories:
   - javascript

@@ -1,5 +1,5 @@
 ---
-title: "[Javascript] Hoisting & TDZ"
+title: "[JavaScript] Hoisting & TDZ"
 date: 2020-11-19 23:57:43 +0900
 categories:
   - javascript
@@ -46,7 +46,7 @@ print();
 
 위의 예제에서의 var를 let 혹은 const로 변경해서 실행시켜보면 다음과 같이 우리가 예상했던 ReferenceError를 볼 수 있습니다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd63257b-a6e2-4749-a90f-4bb58e383d55/_2020-11-19__3.02.11.png](/assets/images/reference_error.png)
+![http://dl.dropbox.com/s/y5alq7iedrgt00j/JavaScript-Hoisting%20%26%20TDZ-1.png](http://dl.dropbox.com/s/y5alq7iedrgt00j/JavaScript-Hoisting%20%26%20TDZ-1.png)
 
 이를 통해 let, const 변수는 호이스팅이 발생하지 않는다고 오해할 수 있습니다. 호이스팅에 관한 부분은 아래 **변수의 생성 단계**에서 다룹니다.
 

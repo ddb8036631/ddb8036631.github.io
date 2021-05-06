@@ -30,13 +30,13 @@ $ git commit -m "Commit before yarn eject"
 
 이후 yarn eject 명령어를 실행하면 아래와 같이 `config` 와 `scripts` 디렉토리가 생깁니다.
 
-![/assets/images/sass-loader 커스터마이징하기1.png](/assets/images/sass-loader 커스터마이징하기1.png)
+![http://dl.dropbox.com/s/wbgp9nk81dgr801/React-sass-loader%20%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95%ED%95%98%EA%B8%B0-1.png](http://dl.dropbox.com/s/wbgp9nk81dgr801/React-sass-loader%20%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95%ED%95%98%EA%B8%B0-1.png)
 
 <br>
 
 config 디렉토리 내부의 webpack.config.js 파일로 들어가서 `sassRegex` 라는 키워드를 검색하면 아래와 같은 설정 옵션들이 보입니다.
 
-![/assets/images/sass-loader 커스터마이징하기2.png](/assets/images/sass-loader 커스터마이징하기2.png)
+![http://dl.dropbox.com/s/fatewkv0wul3sbd/React-sass-loader%20%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95%ED%95%98%EA%B8%B0-2.png](http://dl.dropbox.com/s/fatewkv0wul3sbd/React-sass-loader%20%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95%ED%95%98%EA%B8%B0-2.png)
 
 <br>
 

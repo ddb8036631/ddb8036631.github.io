@@ -78,13 +78,13 @@ const StyledComponent = () => {
 export default StyledComponent;
 ```
 
-![/assets/images/React_styled-components1.gif](/assets/images/React_styled-components1.gif)
+![http://dl.dropbox.com/s/lt6jp82psx9p2x7/React-styled-components-1.gif](http://dl.dropbox.com/s/lt6jp82psx9p2x7/React-styled-components-1.gif)
 
 <br>
 
 # Tagged Template Literals
 
-![/assets/images/React_styled-components2.png](/assets/images/React_styled-components2.png)
+![http://dl.dropbox.com/s/zjn8xu5qsfasbun/React-styled-components-2.png](http://dl.dropbox.com/s/zjn8xu5qsfasbun/React-styled-components-2.png)
 
 <br>
 

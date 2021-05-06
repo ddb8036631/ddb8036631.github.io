@@ -1,5 +1,5 @@
 ---
-title: "[etc] Netflix Clone Coding(1/4)"
+title: "[클론코딩] Netflix Clone Coding(1/4)"
 date: 2020-11-19 00:38:40 +0900
 categories:
   - clonecoding
@@ -23,11 +23,11 @@ classes: wide
 
 다 작성하고 나면 아래와 같이 발급반은 API key를 볼 수 있습니다.
 
-![](/assets/images/api_key.png)
+![http://dl.dropbox.com/s/17bec2leeufo10s/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%201-1.png](http://dl.dropbox.com/s/17bec2leeufo10s/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%201-1.png)
 
 Postman을 통해 위 사진의 API 요청 예를 전송해 response 를 통해 제대로 generate 된 API key임을 확인합니다.
 
-![](/assets/images/postman_result.png)
+![http://dl.dropbox.com/s/w1csqdzn3lbvyje/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%201-2.png](http://dl.dropbox.com/s/w1csqdzn3lbvyje/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%201-2.png)
 
 ## 2. create-react-app을 통해 React 프로젝트 생성
 
@@ -50,7 +50,7 @@ Firebase는 다음과 같은 특징이 가집니다.
 1. Add project 버튼을 누르고 netflix-clone 이라는 이름의 프로젝트를 생성합니다.
 2. 프로젝트가 생성되었다면, `웹` 버튼을 눌러 웹 앱에 Firebase 를 추가합니다.
 
-   ![](/assets/images/firebase.png)
+   ![http://dl.dropbox.com/s/w0rfatu135mzhmc/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%201-3.png](http://dl.dropbox.com/s/w0rfatu135mzhmc/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%201-3.png)
 
 3. [Firebase SDK 추가]는 node module을 사용할 것이므로, 생략합니다.
 4. [Firebase CLI] 설치를 위해 터미널에 아래의 명령어를 작성합니다.
@@ -67,7 +67,7 @@ Firebase는 다음과 같은 특징이 가집니다.
 
 netflix-clone 프로젝트의 src 폴더에 있는 아래 세 개의 불필요한 파일을 삭제합니다.
 
-![](/assets/images/unnecessary.png)
+![http://dl.dropbox.com/s/j5fhenrxkk8b27a/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%201-4.png](http://dl.dropbox.com/s/j5fhenrxkk8b27a/%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9-Netflix%20Clone%20Coding%201-4.png)
 
 ## axios 모듈 설치
 

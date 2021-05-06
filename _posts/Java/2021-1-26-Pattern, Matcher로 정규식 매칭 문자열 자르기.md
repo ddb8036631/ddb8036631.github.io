@@ -33,7 +33,7 @@ String regex = "([0-9]*)([SDT])([*#]?)";
 
 [정규식 테스트 사이트](https://regexr.com/)에서 문자열 `1S2D*3T` 는 위에 작성된 정규식 `([0-9]*)([SDT])([*#)?)` 에 세 번 매칭됨을 아래 사진에서 확인할 수 있다.
 
-![/assets/images/Java_Pattern, Matcher로 정규식 매칭 문자열 자르기1.png](/assets/images/Java_Pattern, Matcher로 정규식 매칭 문자열 자르기1.png)
+![http://dl.dropbox.com/s/v3t0f42x3cnxuub/Java-Pattern%2C%20Matcher%EB%A1%9C%20%EC%A0%95%EA%B7%9C%EC%8B%9D%20%EB%A7%A4%EC%B9%AD%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%90%EB%A5%B4%EA%B8%B0-1.png](http://dl.dropbox.com/s/v3t0f42x3cnxuub/Java-Pattern%2C%20Matcher%EB%A1%9C%20%EC%A0%95%EA%B7%9C%EC%8B%9D%20%EB%A7%A4%EC%B9%AD%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%90%EB%A5%B4%EA%B8%B0-1.png)
 
 <br>
 
@@ -63,7 +63,7 @@ System.out.println(matcher.matches()); // true
 
 Matcher 클래스에는 `find()` 메소드가 있다. 이 메소드는 전체 문자열 내에서 패턴에 일치하는 부분 문자열만을 가지고 매칭 일치 여부를 판단한다. 따라서 find() 메소드를 사용하면, 전체 문자열 `1S2D*3T` 는 **`1S`** , `2D*` , `3T` 총 세 번의 매칭에 성공하게 된다.
 
-![/assets/images/Java_Pattern, Matcher로 정규식 매칭 문자열 자르기2.png](/assets/images/Java_Pattern, Matcher로 정규식 매칭 문자열 자르기2.png)
+![http://dl.dropbox.com/s/2r1xvroukghkz5w/Java-Pattern%2C%20Matcher%EB%A1%9C%20%EC%A0%95%EA%B7%9C%EC%8B%9D%20%EB%A7%A4%EC%B9%AD%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%90%EB%A5%B4%EA%B8%B0-2.png](http://dl.dropbox.com/s/2r1xvroukghkz5w/Java-Pattern%2C%20Matcher%EB%A1%9C%20%EC%A0%95%EA%B7%9C%EC%8B%9D%20%EB%A7%A4%EC%B9%AD%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%90%EB%A5%B4%EA%B8%B0-2.png)
 
 Matcher 클래스에는 `group()` 메소드를 통해 패턴 내 각 그룹을 접근할 수 있다. 정규식 내부에서 중괄호로 감싸진 부분은 하나의 그룹을 뜻한다. 정규식 `([0-9]*)([SDT])([*#]?)` 은 아래와 같이 세 개의 그룹을 갖는다.
 
@@ -71,7 +71,7 @@ Matcher 클래스에는 `group()` 메소드를 통해 패턴 내 각 그룹을 �
 2. ([SDT])
 3. ([*#]?)
 
-![/assets/images/Java_Pattern, Matcher로 정규식 매칭 문자열 자르기3.png](/assets/images/Java_Pattern, Matcher로 정규식 매칭 문자열 자르기3.png)
+![http://dl.dropbox.com/s/0yy1dcu47mnetob/Java-Pattern%2C%20Matcher%EB%A1%9C%20%EC%A0%95%EA%B7%9C%EC%8B%9D%20%EB%A7%A4%EC%B9%AD%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%90%EB%A5%B4%EA%B8%B0-3.png](http://dl.dropbox.com/s/0yy1dcu47mnetob/Java-Pattern%2C%20Matcher%EB%A1%9C%20%EC%A0%95%EA%B7%9C%EC%8B%9D%20%EB%A7%A4%EC%B9%AD%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%90%EB%A5%B4%EA%B8%B0-3.png)
 
 Matcher 객체를 이용해 find() 메소드를 호출해 패턴에 맞는 각 부분 문자열을 받아온 뒤 `group()` 메소드를 호출하면, 매칭된 부분 문자열을 반환한다.
 
