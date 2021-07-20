@@ -144,6 +144,11 @@
                         <li><a href="/categories/clonecoding" class="">클론 코딩 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                    {% for category in site.categories %}
+                    {% if category[0] == "linux" %}
+                        <li><a href="/categories/linux" class="">Linux ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
 
         </li>
